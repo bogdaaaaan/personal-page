@@ -1,33 +1,33 @@
-import h from './Hero.module.css';
+import h from './Home.module.css';
 
-import avatar from '../../../images/avatar.png';
-import github from '../../../images/icons/github.svg';
-import instagram from '../../../images/icons/instagram.svg';
-import telegram from '../../../images/icons/telegram.svg';
+import avatar from '../../images/avatar.jpg';
+import github from '../../images/icons/github.svg';
+import instagram from '../../images/icons/instagram.svg';
+import telegram from '../../images/icons/telegram.svg';
 
-const Hero = () => {
+const Home = () => {
     return (
-        <div className={h['hero-content']}>
-            <div className={h['hero-avatar']}>
+        <div className={h['home-content']}>
+            <div className={h['home-avatar']}>
                 <img
-                    className={h['hero-avatar__image']}
+                    className={h['home-avatar__image']}
                     src={avatar}
                     alt="avatar"
                 />
             </div>
 
-            <div className={h['hero-info']}>
-                <div className={h['hero-title']}>
-                    <p className={h['hero-title__greetings']}>Greetings!</p>
+            <div className={h['home-info']}>
+                <div className={h['home-title']}>
+                    <p className={h['home-title__greetings']}>Greetings!</p>
                 </div>
-                <div className={h['hero-description']}>
-                    <p className={h['hero-description__about']}>
+                <div className={h['home-description']}>
+                    <p className={h['home-description__about']}>
                         My name is Bogdan Glechkovsky and I'm a front-end
                         developer.
                     </p>
                 </div>
-                <div className={h['hero-social-links']}>
-                    <div className={h['hero-social-links__github']}>
+                <div className={h['home-social-links']}>
+                    <div className={h['home-social-links__github']}>
                         <a href="/" className={h['social-link']}>
                             <img
                                 className={h['social-link__image']}
@@ -36,7 +36,7 @@ const Hero = () => {
                             />
                         </a>
                     </div>
-                    <div className={h['hero-social-links__instagram']}>
+                    <div className={h['home-social-links__instagram']}>
                         <a href="/" className={h['social-link']}>
                             <img
                                 className={h['social-link__image']}
@@ -45,7 +45,7 @@ const Hero = () => {
                             />
                         </a>
                     </div>
-                    <div className={h['hero-social-links__telegram']}>
+                    <div className={h['home-social-links__telegram']}>
                         <a href="/" className={h['social-link']}>
                             <img
                                 className={h['social-link__image']}
@@ -59,4 +59,4 @@ const Hero = () => {
         </div>
     );
 };
-export default Hero;
+export default Home;

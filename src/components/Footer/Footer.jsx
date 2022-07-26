@@ -3,16 +3,7 @@ import f from './Footer.module.css';
 const Footer = () => {
     return (
         <div className={f.footer}>
-            <h1>HI</h1>
-            <h1>HI</h1>
-            <h1>HI</h1>
-            <h1>HI</h1>
-            <h1>HI</h1>
-            <h1>HI</h1>
-            <h1>HI</h1>
-            <h1>HI</h1>
-            <h1>HI</h1>
-            <h1>HI</h1>
+            <span>Build by Bogdan Glechkovskiy 2022</span>
         </div>
     );
 };

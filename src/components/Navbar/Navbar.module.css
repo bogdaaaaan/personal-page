@@ -2,7 +2,6 @@
     height: 10vh;
     padding: 0 25px;
     position: relative;
-    /*background: #d3d3d3;*/
 }
 
 .navbar {
@@ -38,42 +37,4 @@
 .navbar-link:hover:after {
     width: 100%;
     left: 0;
-}
-
-.sidebar-button {
-    position: absolute;
-    display: none;
-    width: 32px;
-    height: 32px;
-    background: #000;
-    right: 15px;
-    top: 50%;
-    transform: translate(0%, -50%);
-}
-
-@media screen and (max-height: 400px) {
-    .header {
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .navbar {
-        height: auto;
-    }
-}
-
-@media screen and (max-height: 600px) {
-    .header {
-        height: 70px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .navbar {
-        display: none;
-    }
-    .sidebar-button {
-        display: block;
-    }
 }

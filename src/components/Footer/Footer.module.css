@@ -1,3 +1,6 @@
 .footer {
-    color: yellow;
+    margin-top: auto;
+    text-align: center;
+    font-size: 0.8em;
+    opacity: 0.6;
 }

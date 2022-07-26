@@ -1,4 +1,4 @@
-.hero-content {
+.home-content {
     height: 60vh;
     width: 100%;
     display: flex;
@@ -9,14 +9,14 @@
     padding: 3vh 0;
 }
 
-.hero-info {
+.home-info {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
 
-.hero-avatar__image {
+.home-avatar__image {
     height: 130px;
     width: 130px;
     border: 3px solid #047526;
@@ -25,27 +25,27 @@
         0 0 1px 22px rgba(8, 78, 1, 0.1);
 }
 
-.hero-title {
+.home-title {
     margin-bottom: 25px;
 }
 
-.hero-title__greetings {
+.home-title__greetings {
     font-weight: 500;
     font-size: 42px;
 }
 
-.hero-description {
+.home-description {
     margin-bottom: 25px;
 }
 
-.hero-description__about {
+.home-description__about {
     font-weight: 300;
     font-size: 18px;
     text-align: center;
     color: #535358;
 }
 
-.hero-social-links {
+.home-social-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,21 +70,21 @@
 }
 
 @media screen and (max-height: 400px) {
-    .hero-content {
+    .home-content {
         height: auto;
         padding: 25px 0;
     }
 }
 
 @media screen and (max-height: 600px) {
-    .hero-content {
+    .home-content {
         flex-direction: row;
         justify-content: space-around;
     }
 }
 
 @media (max-height: 600px) and (max-width: 768px) {
-    .hero-avatar {
+    .home-avatar {
         display: none;
     }
 }

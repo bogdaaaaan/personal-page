@@ -2,10 +2,10 @@
     height: 60vh;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    flex: 1 1 auto;
     padding: 3vh 0;
 }
 
@@ -14,6 +14,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    margin-top: 35px;
 }
 
 .home-avatar__image {

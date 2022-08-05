@@ -1,20 +1,20 @@
 import { Link } from 'react-router-dom';
-import h from './Navbar.module.css';
+import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className={h.header}>
-            <div className={h.navbar}>
-                <Link to="/" className={h['navbar-link']}>
+        <div className='header'>
+            <div className='navbar'>
+                <Link to="/" className='navbar-link'>
                     Home
                 </Link>
-                <Link to="/about" className={h['navbar-link']}>
+                <Link to="/about" className='navbar-link'>
                     About
                 </Link>
-                <Link to="/contact" className={h['navbar-link']}>
+                <Link to="/contact" className='navbar-link'>
                     Contact
                 </Link>
-                <Link to="/works" className={h['navbar-link']}>
+                <Link to="/works" className='navbar-link'>
                     My Works
                 </Link>
             </div>

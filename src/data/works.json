@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "img": "images/portfolio.png",
+        "alt":"portfolio",
+        "tags": ["HTML", "CSS", "JS", "React"],
+        "title": "Portfolio Website", 
+        "description": "Simple Portfolio website created to show my work and ways to connect with me",
+        "visit_link": "https://github.com/bogdaaaaan/Web-Portfolio",
+        "github_link": "https://github.com/bogdaaaaan/Web-Portfolio"
+    },
+    {
+        "id": 2,
+        "img": "images/portfolio.png",
+        "alt":"portfolio",
+        "tags": ["HTML", "CSS", "JS", "React"],
+        "title": "Portfolio Website", 
+        "description": "Simple Portfolio website created to show my work and ways to connect with me",
+        "visit_link": "https://github.com/bogdaaaaan/Web-Portfolio",
+        "github_link": "https://github.com/bogdaaaaan/Web-Portfolio"
+    },
+    {
+        "id": 3,
+        "img": "images/portfolio.png",
+        "alt":"portfolio",
+        "tags": ["HTML", "CSS", "JS", "React"],
+        "title": "Portfolio Website", 
+        "description": "Simple Portfolio website created to show my work and ways to connect with me",
+        "visit_link": "https://github.com/bogdaaaaan/Web-Portfolio",
+        "github_link": "https://github.com/bogdaaaaan/Web-Portfolio"
+    },
+    {
+        "id": 4,
+        "img": "images/portfolio.png",
+        "alt":"portfolio",
+        "tags": ["HTML", "CSS", "JS", "React"],
+        "title": "Portfolio Website", 
+        "description": "Simple Portfolio website created to show my work and ways to connect with me",
+        "visit_link": "https://github.com/bogdaaaaan/Web-Portfolio",
+        "github_link": "https://github.com/bogdaaaaan/Web-Portfolio"
+    }
+]

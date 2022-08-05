@@ -1,13 +1,22 @@
 import Card from "../../components/Card/Card";
-
-import portfolio from '../../images/portfolio.png';
+import './Works.css';
+import works from '../../data/works.json';
 
 const Works = () => {
-    const info = {photo: portfolio, alt:'portfolio', title: "Portfolio Website", description: "Simple Portfolio website created to show my work and ways to connect with me"};
-
     return (
-        <div className="works-table">
-            <Card props={info}/>
+        <div className="works-wrapper">
+            <p className="works-header">
+                See My Works:
+            </p>
+            <div className="works-table">
+                {
+                    works && works.map(work => {
+                        return (
+                            <Card key={work.id} props={work}/>
+                        )
+                    })
+                }
+            </div>
         </div>
     );
 };

@@ -1,8 +1,8 @@
-import f from './Footer.module.css';
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className={f.footer}>
+        <div className='footer'>
             <span>Build by Bogdan Glechkovskiy 2022</span>
         </div>
     );

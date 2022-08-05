@@ -1,0 +1,19 @@
+.works-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.works-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.works-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,24 +1,33 @@
+import './Card.css';
+import colors from '../../data/tag_colors.json';
 
 
 const Card = (props) => {
     const info = props.props;
-
     return (
+
         <div className="card">
-            <div className="card-photo">
-                <img src={info.photo} alt={info.alt} />
+            <div className="card-header">
+                <img className='card-image' src={info.img} alt={info.alt} />
             </div>
-            <div className="card-title">
-                {info.title}
+            <div className="card-body">
+                <div className="card-tags">
+                    {
+                        info.tags.map(tag => {
+                            return (
+                                <span key={tag} className={`tag`} style={{"backgroundColor": colors[tag]}}>{tag}</span>
+                            )
+                        })
+                    }
+                </div>
+                <p className='card-title'>{info.title}</p>
+                <p className='card-description'>{info.description}</p>
+                <div className="card-buttons">
+                    <a className="card-button" href={info.visit_link}>Visit</a>
+                    <a className="card-button" href={info.github_link}>Github</a>
+                </div>
             </div>
-            <div className="card-description">
-                {info.description}
-            </div>
-            <div className="card-buttons">
-                <button>Visit</button>
-                <button>Github</button>
-            </div>
-        </div>  
+        </div>
     )
 }
 

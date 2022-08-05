@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import './Contact.css';
 
 const Contact = () => {
     const form = useRef();
@@ -8,14 +9,8 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm(
-                'service_ybuzrre',
-                'template_jjqg99s',
-                form.current,
-                'Kh4XI8mEd_1abJzjj'
-            )
-            .then(
-                result => {
+            .sendForm('service_ybuzrre','template_jjqg99s',form.current,'Kh4XI8mEd_1abJzjj')
+            .then(result => {
                     console.log(result.text);
                 },
                 error => {
@@ -25,17 +20,21 @@ const Contact = () => {
     };
 
     return (
-        <div>
-            <form ref={form} onSubmit={sendEmail}>
-                <label>Name</label>
-                <input type="text" name="user_name" />
-                <label>Email</label>
-                <input type="email" name="user_email" />
-                <label>Message</label>
-                <textarea name="message" />
-                <input type="submit" value="Send" />
+        <div className='contact-wrapper'>
+            <div className="contact-header">
+                <p className='contact-header__title'>Contact me:</p>
+                <span className='contact-header__description'>Send message to my email</span>
+            </div>
+           
+            <form className='contact-form' ref={form} onSubmit={sendEmail}>
+                <input className='contact-form__input' type="text" name="user_name" placeholder='Your Name'/>
+                <input className='contact-form__input' type="email" name="user_email" placeholder='Your Email' />
+                <textarea className='contact-form__input textarea' name="message" placeholder='Message'/>
+
+                <input className='contact-form__button' type="submit" value="Send" />
             </form>
-            Or write me in <a href="https://t.me/bogdaaaaan">telegram</a>
+            <span className='contact-footer'>Or write me in <a href="https://t.me/bogdaaaaan">telegram</a></span>
+            
         </div>
     );
 };

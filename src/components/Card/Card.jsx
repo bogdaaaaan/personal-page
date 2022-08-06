@@ -23,8 +23,8 @@ const Card = (props) => {
                 <p className='card-title'>{info.title}</p>
                 <p className='card-description'>{info.description}</p>
                 <div className="card-buttons">
-                    <a className="card-button" href={info.visit_link}>Visit</a>
-                    <a className="card-button" href={info.github_link}>Github</a>
+                    <a className="card-button btn" href={info.visit_link}>Visit</a>
+                    <a className="card-button btn" href={info.github_link}>Github</a>
                 </div>
             </div>
         </div>

@@ -20,7 +20,7 @@ const Contact = () => {
     };
 
     return (
-        <div className='contact-wrapper'>
+        <div id='contact' className='contact-wrapper'>
             <div className="contact-header">
                 <p className='contact-header__title'>Contact me:</p>
                 <span className='contact-header__description'>Send message to my email</span>
@@ -31,7 +31,7 @@ const Contact = () => {
                 <input className='contact-form__input' type="email" name="user_email" placeholder='Your Email' />
                 <textarea className='contact-form__input textarea' name="message" placeholder='Message'/>
 
-                <input className='contact-form__button' type="submit" value="Send" />
+                <input className='contact-form__button btn' type="submit" value="Send" />
             </form>
             <span className='contact-footer'>Or write me in <a href="https://t.me/bogdaaaaan">telegram</a></span>
             

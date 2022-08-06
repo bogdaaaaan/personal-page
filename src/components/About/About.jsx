@@ -3,7 +3,7 @@ import avatar from '../../images/avatar.jpg';
 
 const About = () => {
     return (
-        <div className="about-wrapper">
+        <div id='about' className="about-wrapper">
             <div className="about-header">
                 <p className="about-header__title">
                     About me

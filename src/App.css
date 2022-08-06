@@ -2,28 +2,33 @@
 
 * {
     box-sizing: border-box;
-    color: #000;
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
 }
 
 body {
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
-    background: linear-gradient(
-            to bottom,
-            rgba(255, 255, 255, 0.61),
-            rgb(255, 255, 255)
-        ),
-        url('./images/bg.jpg');
-    background-size: cover;
+    background: var(--bg);
+    color: var(--text-primary);
 }
 
-.App {
-    min-height: 100vh;
+.root {
     display: flex;
     flex-direction: column;
+    height: 100%;
+
+}
+
+.btn {
+    color: var(--text-primary);
+    border-color: var(--text-primary);
+}
+
+.btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
 }
 
 ::-webkit-scrollbar {

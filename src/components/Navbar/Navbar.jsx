@@ -1,22 +1,39 @@
-import { Link } from 'react-router-dom';
+import { useRef, useEffect } from 'react';
 import './Navbar.css';
 
+
 const Navbar = () => {
+    const ref = useRef(null);
+
+    useEffect(() => {
+        const nav_element = ref.current;
+        let pos = window.pageYOffset;
+        window.onscroll = function() {
+            let cur_pos = window.pageYOffset;
+            nav_element.style.top = pos > cur_pos ? "0px" : "-150px";
+            pos = cur_pos;
+        };
+
+    }, []);
+
+   
+   
+
     return (
-        <div className='header'>
+        <div id='navbar' ref={ref} className='navbar-wrapper'>
             <div className='navbar'>
-                <Link to="/" className='navbar-link'>
+                <a href='#home' className='navbar-link'>
                     Home
-                </Link>
-                <Link to="/about" className='navbar-link'>
+                </a>
+                <a href='#about' className='navbar-link'>
                     About
-                </Link>
-                <Link to="/contact" className='navbar-link'>
-                    Contact
-                </Link>
-                <Link to="/works" className='navbar-link'>
+                </a>
+                <a href='#works' className='navbar-link'>
                     My Works
-                </Link>
+                </a>
+                <a href='#contact' className='navbar-link'>
+                    Contact
+                </a>
             </div>
         </div>
     );

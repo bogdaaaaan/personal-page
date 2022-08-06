@@ -1,12 +1,13 @@
-.home-content {
-    height: 60vh;
+.home-wrapper {
+    height: 100vh;
+    min-height: 480px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex: 1 1 auto;
-    padding: 3vh 0;
+    margin-bottom: 30px;
+    padding: 25px;
 }
 
 .home-info {
@@ -17,7 +18,6 @@
     margin-top: 35px;
 }
 
-
 .home-title {
     margin-bottom: 25px;
 }
@@ -25,6 +25,7 @@
 .home-title__greetings {
     font-weight: 500;
     font-size: 42px;
+    color: var(--text-primary);
 }
 
 .home-description {
@@ -35,7 +36,7 @@
     font-weight: 300;
     font-size: 18px;
     text-align: center;
-    color: #535358;
+    color: var(--text-secondary);
 }
 
 .home-social-links {
@@ -56,7 +57,6 @@
 }
 
 .social-link__image:hover {
-    background-color: violet;
     filter: invert(1);
     box-shadow: 0 0 1px 11px rgba(121, 0, 121, 0.15),
         0 0 1px 22px rgba(65, 1, 78, 0.1);

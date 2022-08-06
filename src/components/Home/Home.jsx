@@ -6,7 +6,7 @@ import telegram from '../../images/icons/telegram.svg';
 
 const Home = () => {
     return (
-        <div className='home-content'>
+        <div id='home' className='home-wrapper'>
             <div className='home-info'>
                 <div className='home-title'>
                     <p className='home-title__greetings'>Greetings!</p>

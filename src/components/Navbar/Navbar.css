@@ -1,11 +1,18 @@
-.header {
-    height: 10vh;
+.navbar-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0 25px;
-    position: relative;
+    position: fixed;
+    top: 0;
+    transition: top .3s;
+    background: var(--secondary-bg);
+    z-index: 1;
 }
 
 .navbar {
-    height: 100%;
+    min-height: 70px;
     width: 400px;
     display: flex;
     justify-content: space-between;
@@ -13,23 +20,24 @@
     font-weight: 300;
     font-size: 18px;
     text-align: center;
-    color: #535358;
 }
 
 .navbar-link {
+    color: var(--text-primary);
     text-decoration: none;
     position: relative;
+    cursor: pointer;
 }
 
 .navbar-link::after {
     background: none repeat scroll 0 0 transparent;
-    bottom: 0;
+    bottom: -5px;
     content: '';
     display: block;
     height: 2px;
     left: 50%;
     position: absolute;
-    background: #0e461a96;
+    background: var(--accent);
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }

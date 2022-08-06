@@ -4,7 +4,7 @@ import works from '../../data/works.json';
 
 const Works = () => {
     return (
-        <div className="works-wrapper">
+        <div id="works" className="works-wrapper">
             <p className="works-header">
                 See My Works:
             </p>

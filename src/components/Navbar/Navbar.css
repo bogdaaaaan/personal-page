@@ -1,4 +1,4 @@
-.navbar-wrapper {
+.navbar {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@
     z-index: 1;
 }
 
-.navbar {
+.navbar-list {
     min-height: 70px;
     width: 400px;
     display: flex;

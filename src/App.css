@@ -21,6 +21,12 @@ body {
 
 }
 
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 15px;
+}
+
 .btn {
     color: var(--text-primary);
     border-color: var(--text-primary);

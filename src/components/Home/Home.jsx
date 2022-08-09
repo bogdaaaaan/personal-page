@@ -4,9 +4,11 @@ import github from '../../images/icons/github.svg';
 import instagram from '../../images/icons/instagram.svg';
 import telegram from '../../images/icons/telegram.svg';
 
+import links from '../../data/links.json';
+
 const Home = () => {
     return (
-        <div id='home' className='home-wrapper'>
+        <div id='home' className='home wrapper'>
             <div className='home-info'>
                 <div className='home-title'>
                     <p className='home-title__greetings'>Greetings!</p>
@@ -19,7 +21,7 @@ const Home = () => {
                 </div>
                 <div className='home-social-links'>
                     <div className='home-social-links__github'>
-                        <a href="/" className='social-link'>
+                        <a href={links.github} className='social-link'>
                             <img
                                 className='social-link__image'
                                 src={github}
@@ -28,7 +30,7 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='home-social-links__instagram'>
-                        <a href="/" className='social-link'>
+                        <a href={links.instagram} className='social-link'>
                             <img
                                 className='social-link__image'
                                 src={instagram}
@@ -37,7 +39,7 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='home-social-links__telegram'>
-                        <a href="/" className='social-link'>
+                        <a href={links.telegram} className='social-link'>
                             <img
                                 className='social-link__image'
                                 src={telegram}

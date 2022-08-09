@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
+import links from '../../data/links.json';
 
 const Contact = () => {
     const form = useRef();
@@ -20,7 +21,7 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact' className='contact-wrapper'>
+        <div id='contact' className='contact wrapper'>
             <div className="contact-header">
                 <p className='contact-header__title'>Contact me:</p>
                 <span className='contact-header__description'>Send message to my email</span>
@@ -33,7 +34,7 @@ const Contact = () => {
 
                 <input className='contact-form__button btn' type="submit" value="Send" />
             </form>
-            <span className='contact-footer'>Or write me in <a href="https://t.me/bogdaaaaan">telegram</a></span>
+            <span className='contact-footer'>Or write me in <a href={links.telegram}>telegram</a></span>
             
         </div>
     );

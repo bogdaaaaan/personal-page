@@ -1,6 +1,7 @@
-.home-wrapper {
+.home {
     height: 100vh;
     min-height: 480px;
+    max-height: 1080px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -54,10 +55,10 @@
     width: 30px;
     border-radius: 50%;
     transition: all 0.3s;
+    filter: invert(1);
 }
 
 .social-link__image:hover {
-    filter: invert(1);
     box-shadow: 0 0 1px 11px rgba(121, 0, 121, 0.15),
         0 0 1px 22px rgba(65, 1, 78, 0.1);
 }

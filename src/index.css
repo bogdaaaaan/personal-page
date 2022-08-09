@@ -17,9 +17,9 @@ code {
 }
 
 :root {
-    --secondary-bg: #222831;
-    --bg: #393E46;
-    --text-primary: #ffffff;
-    --text-secondary: #eeeeee;
+    --bg: #1b2727;
+    --secondary-bg: #3c5148;
+    --text-primary: #d5dddf;
+    --text-secondary: #b2c5b2;
     --accent: #7BC74D;
 }

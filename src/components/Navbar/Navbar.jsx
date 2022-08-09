@@ -17,8 +17,8 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div id='navbar' ref={ref} className='navbar-wrapper'>
-            <div className='navbar'>
+        <div id='navbar' ref={ref} className='navbar'>
+            <div className='navbar-list'>
                 <a href='#home' className='navbar-link'>
                     Home
                 </a>

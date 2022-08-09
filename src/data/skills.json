@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "JS",
+        "percentage": 75
+    },
+    {
+        "id": 2,
+        "name": "HTML",
+        "percentage": 75
+    },
+    {
+        "id": 3,
+        "name": "CSS",
+        "percentage": 60
+    },
+    {
+        "id": 4,
+        "name": "React",
+        "percentage": 45
+    },
+    {
+        "id": 5,
+        "name": "TS",
+        "percentage": 35
+    }
+]

@@ -24,8 +24,67 @@
         "alt":"Train Tickets",
         "tags": ["JS", "React", "MongoDB", "Node"],
         "title": "Train Tickets", 
-        "description": "Train tickets API with simple interface",
+        "description": "Train tickets API with simple interface.",
         "github_link": "https://github.com/bogdaaaaan/train-tickets"
+    },
+    {
+        "id": 4,
+        "img": "images/web_constructor.png",
+        "alt":"WebConstructor",
+        "tags": ["HTML", "JS", "React", "Node"],
+        "title": "WebConstructor", 
+        "description": "WebConstructor is a free Website builder created using Build UI library.",
+        "visit_link": "https://bogdaaaaan.github.io/WebConstructor/",
+        "github_link": "https://github.com/bogdaaaaan/WebConstructor"
+    },
+    {
+        "id": 5,
+        "img": "images/deep_q_pacman.png",
+        "alt":"Deep Q Pacman",
+        "tags": ["HTML", "JS"],
+        "title": "Deep Q Learning in Pacman", 
+        "description": "Recreation of Deep Q Learning algorithm in Pacman using an example from documentation of ConvNetJS library.",
+        "visit_link": "https://bogdaaaaan.github.io/convnetjs/",
+        "github_link": "https://github.com/bogdaaaaan/convnetjs"
+    },
+    {
+        "id": 6,
+        "img": "images/landing.png",
+        "alt":"pages",
+        "tags": ["HTML", "CSS"],
+        "title": "Bundle of landing pages", 
+        "description": "Some of landing pages created by me listed in one project.",
+        "visit_link": "https://bogdaaaaan.github.io/Landing/",
+        "github_link": "https://github.com/bogdaaaaan/Landing"
+    },
+    {
+        "id": 7,
+        "img": "images/postgres.png",
+        "alt":"postgres",
+        "tags": ["HTML", "JS", "Node"],
+        "title": "Database UI", 
+        "description": "UI for PostgreSQL Database using node-postgres",
+        "github_link": "https://github.com/bogdaaaaan/hardware_shop_db"
+    },
+    {
+        "id": 8,
+        "img": "images/close_sector.png",
+        "alt":"close sector",
+        "tags": ["HTML", "JS"],
+        "title": "Close the sector", 
+        "description": "Implementation of a game called 'Close the sector' using expectimax.",
+        "visit_link": "https://bogdaaaaan.github.io/Close-the-sector-Game/",
+        "github_link": "https://github.com/bogdaaaaan/Close-the-sector-Game"
+    },
+    {
+        "id": 9,
+        "img": "images/cram.png",
+        "alt":"cram",
+        "tags": ["HTML", "JS"],
+        "title": "Cram game", 
+        "description": "Implementation of a game called 'Cram' using alpha beta pruning",
+        "visit_link": "https://bogdaaaaan.github.io/Cram-The-Game/",
+        "github_link": "https://github.com/bogdaaaaan/Cram-The-Game"
     }
     
 ]

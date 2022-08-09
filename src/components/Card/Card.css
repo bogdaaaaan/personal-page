@@ -5,6 +5,8 @@
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     width: 300px;
+    display: flex;
+    flex-direction: column;
 }
 .card-image {
     width: 100%;
@@ -14,10 +16,14 @@
 .card-body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    flex-grow: 1;
     padding: 20px;
     min-height: 250px;
+}
+
+.flexible {
+    flex-grow: 1;
 }
 
 .card-tags {

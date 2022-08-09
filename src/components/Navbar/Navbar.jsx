@@ -16,9 +16,6 @@ const Navbar = () => {
 
     }, []);
 
-   
-   
-
     return (
         <div id='navbar' ref={ref} className='navbar-wrapper'>
             <div className='navbar'>

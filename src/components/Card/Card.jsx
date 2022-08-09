@@ -20,13 +20,16 @@ const Card = (props) => {
                         })
                     }
                 </div>
+
+                <div className="flexible"></div>
+
                 <p className='card-title'>{info.title}</p>
                 <p className='card-description'>{info.description}</p>
 
                 <div className="flexible"></div>
                 
                 <div className="card-buttons">
-                    <a className="card-button btn" href={info.visit_link}>Visit</a>
+                    {info?.visit_link ? <a className="card-button btn" href={info.visit_link}>Visit</a> : ''}
                     <a className="card-button btn" href={info.github_link}>Github</a>
                 </div>
             </div>

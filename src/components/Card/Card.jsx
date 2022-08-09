@@ -21,8 +21,6 @@ const Card = (props) => {
                     }
                 </div>
 
-                <div className="flexible"></div>
-
                 <p className='card-title'>{info.title}</p>
                 <p className='card-description'>{info.description}</p>
 

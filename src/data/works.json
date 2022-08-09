@@ -22,7 +22,7 @@
         "id": 3,
         "img": "images/train_tickets.png",
         "alt":"Train Tickets",
-        "tags": ["JS", "React", "MongoDB", "Express", "Node"],
+        "tags": ["JS", "React", "MongoDB", "Node"],
         "title": "Train Tickets", 
         "description": "Train tickets API with simple interface",
         "github_link": "https://github.com/bogdaaaaan/train-tickets"

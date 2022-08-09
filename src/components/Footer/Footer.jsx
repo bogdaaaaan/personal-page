@@ -2,9 +2,9 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <footer>
             <span>Build &#38; Designed by Bogdan Glechkovskiy</span>
-        </div>
+        </footer>
     );
 };
 export default Footer;

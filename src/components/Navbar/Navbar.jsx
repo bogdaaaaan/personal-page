@@ -17,8 +17,8 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div id='navbar' ref={ref} className='navbar'>
-            <div className='navbar-list'>
+        <header id='navbar' ref={ref} className='navbar'>
+            <nav className='navbar-list'>
                 <a href='#home' className='navbar-link'>
                     Home
                 </a>
@@ -31,8 +31,8 @@ const Navbar = () => {
                 <a href='#contact' className='navbar-link'>
                     Contact
                 </a>
-            </div>
-        </div>
+            </nav>
+        </header>
     );
 };
 export default Navbar;

@@ -21,9 +21,6 @@
 
 .home-title {
     margin-bottom: 25px;
-}
-
-.home-title__greetings {
     font-weight: 500;
     font-size: 42px;
     color: var(--text-primary);

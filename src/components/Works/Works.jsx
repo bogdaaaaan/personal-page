@@ -4,11 +4,11 @@ import works from '../../data/works.json';
 
 const Works = () => {
     return (
-        <div id="works" className="works wrapper">
-            <p className="works-header">
+        <section id="works" className="works wrapper">
+            <h2 className="works-header">
                 See My Works:
-            </p>
-            <div className="works-table">
+            </h2>
+            <ul className="works-table">
                 {
                     works && works.map(work => {
                         return (
@@ -16,8 +16,8 @@ const Works = () => {
                         )
                     })
                 }
-            </div>
-        </div>
+            </ul>
+        </section>
     );
 };
 export default Works;

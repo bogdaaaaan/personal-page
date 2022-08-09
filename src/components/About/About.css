@@ -10,9 +10,6 @@
 
 .about-header {
     margin-bottom: 15px;
-}
-
-.about-header__title {
     font-size: 26px;
     font-weight: 700;
     color: var(--text-primary);

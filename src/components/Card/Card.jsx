@@ -6,20 +6,20 @@ const Card = (props) => {
     const info = props.props;
     return (
 
-        <div className="card">
+        <li className="card">
             <div className="card-header">
                 <img className='card-image' src={info.img} alt={info.alt} />
             </div>
             <div className="card-body">
-                <div className="card-tags">
+                <ul className="card-tags">
                     {
                         info.tags.map(tag => {
                             return (
-                                <span key={tag} className={`tag`} style={{"backgroundColor": colors[tag]}}>{tag}</span>
+                                <li key={tag} className={`tag`} style={{"backgroundColor": colors[tag]}}>{tag}</li>
                             )
                         })
                     }
-                </div>
+                </ul>
 
                 <p className='card-title'>{info.title}</p>
                 <p className='card-description'>{info.description}</p>
@@ -31,7 +31,7 @@ const Card = (props) => {
                     <a className="card-button btn" href={info.github_link}>Github</a>
                 </div>
             </div>
-        </div>
+        </li>
     )
 }
 

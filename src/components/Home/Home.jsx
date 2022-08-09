@@ -8,48 +8,33 @@ import links from '../../data/links.json';
 
 const Home = () => {
     return (
-        <div id='home' className='home wrapper'>
+        <section id='home' className='home wrapper'>
             <div className='home-info'>
-                <div className='home-title'>
-                    <p className='home-title__greetings'>Greetings!</p>
-                </div>
+
+                <h2 className='home-title'>Greetings!</h2>
                 <div className='home-description'>
-                    <p className='home-description__about'>
-                        My name is Bogdan Glechkovsky and I'm a front-end
-                        developer.
-                    </p>
+                    <p className='home-description__about'>My name is Bogdan Glechkovsky and I'm a front-end developer.</p>
                 </div>
-                <div className='home-social-links'>
-                    <div className='home-social-links__github'>
-                        <a href={links.github} className='social-link'>
-                            <img
-                                className='social-link__image'
-                                src={github}
-                                alt="github"
-                            />
+
+                <ul className='home-social-links'>
+                    <li className='home-social-links__github'>
+                        <a href={links.github} className='social-link'> 
+                            <img className='social-link__image' src={github} alt="github"/>
                         </a>
-                    </div>
-                    <div className='home-social-links__instagram'>
+                    </li>
+                    <li className='home-social-links__instagram'>
                         <a href={links.instagram} className='social-link'>
-                            <img
-                                className='social-link__image'
-                                src={instagram}
-                                alt="instagram"
-                            />
+                            <img className='social-link__image' src={instagram} alt="instagram"/>
                         </a>
-                    </div>
-                    <div className='home-social-links__telegram'>
+                    </li>
+                    <li className='home-social-links__telegram'>
                         <a href={links.telegram} className='social-link'>
-                            <img
-                                className='social-link__image'
-                                src={telegram}
-                                alt="telegram"
-                            />
+                            <img className='social-link__image' src={telegram} alt="telegram"/>
                         </a>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </section>
     );
 };
 export default Home;

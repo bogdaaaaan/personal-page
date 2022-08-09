@@ -21,9 +21,9 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact' className='contact wrapper'>
+        <section id='contact' className='contact wrapper'>
             <div className="contact-header">
-                <p className='contact-header__title'>Contact me:</p>
+                <h2 className='contact-header__title'>Contact me:</h2>
                 <span className='contact-header__description'>Send message to my email</span>
             </div>
            
@@ -35,8 +35,7 @@ const Contact = () => {
                 <input className='contact-form__button btn' type="submit" value="Send" />
             </form>
             <span className='contact-footer'>Or write me in <a href={links.telegram}>telegram</a></span>
-            
-        </div>
+        </section>
     );
 };
 export default Contact;

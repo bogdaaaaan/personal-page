@@ -15,67 +15,17 @@
         "alt":"Ray Tracer",
         "tags": ["TS", "Node"],
         "title": "Ray Tracer", 
-        "description": "Ray Tracer app that can convert .obj files into .ppm raster image or output result in console. Ray Tracer app that can convert .obj files into .ppm raster image or output result in console. Ray Tracer app that can convert .obj files into .ppm raster image or output result in console. ",
+        "description": "Ray Tracer app that can convert .obj files into .ppm raster image or output result in console.",
         "github_link": "https://github.com/bogdaaaaan/CompGraph"
     },
     {
         "id": 3,
-        "img": "images/portfolio.png",
-        "alt":"portfolio",
-        "tags": ["HTML", "CSS", "JS", "React"],
-        "title": "Portfolio Website", 
-        "description": "Simple Portfolio website created to show my work and ways to connect with me",
-        "visit_link": "https://github.com/bogdaaaaan/Web-Portfolio",
-        "github_link": "https://github.com/bogdaaaaan/Web-Portfolio"
-    },
-    {
-        "id": 4,
-        "img": "images/portfolio.png",
-        "alt":"portfolio",
-        "tags": ["HTML", "CSS", "JS", "React"],
-        "title": "Portfolio Website", 
-        "description": "Simple Portfolio website created to show my work and ways to connect with me",
-        "visit_link": "https://github.com/bogdaaaaan/Web-Portfolio",
-        "github_link": "https://github.com/bogdaaaaan/Web-Portfolio"
-    },
-    {
-        "id": 3,
-        "img": "images/portfolio.png",
-        "alt":"portfolio",
-        "tags": ["HTML", "CSS", "JS", "React"],
-        "title": "Portfolio Website", 
-        "description": "Simple Portfolio website created to show my work and ways to connect with me",
-        "visit_link": "https://github.com/bogdaaaaan/Web-Portfolio",
-        "github_link": "https://github.com/bogdaaaaan/Web-Portfolio"
-    },
-    {
-        "id": 4,
-        "img": "images/portfolio.png",
-        "alt":"portfolio",
-        "tags": ["HTML", "CSS", "JS", "React"],
-        "title": "Portfolio Website", 
-        "description": "Simple Portfolio website created to show my work and ways to connect with me",
-        "visit_link": "https://github.com/bogdaaaaan/Web-Portfolio",
-        "github_link": "https://github.com/bogdaaaaan/Web-Portfolio"
-    },
-    {
-        "id": 3,
-        "img": "images/portfolio.png",
-        "alt":"portfolio",
-        "tags": ["HTML", "CSS", "JS", "React"],
-        "title": "Portfolio Website", 
-        "description": "Simple Portfolio website created to show my work and ways to connect with me",
-        "visit_link": "https://github.com/bogdaaaaan/Web-Portfolio",
-        "github_link": "https://github.com/bogdaaaaan/Web-Portfolio"
-    },
-    {
-        "id": 4,
-        "img": "images/portfolio.png",
-        "alt":"portfolio",
-        "tags": ["HTML", "CSS", "JS", "React"],
-        "title": "Portfolio Website", 
-        "description": "Simple Portfolio website created to show my work and ways to connect with me",
-        "visit_link": "https://github.com/bogdaaaaan/Web-Portfolio",
-        "github_link": "https://github.com/bogdaaaaan/Web-Portfolio"
+        "img": "images/train_tickets.png",
+        "alt":"Train Tickets",
+        "tags": ["JS", "React", "MongoDB", "Express", "Node"],
+        "title": "Train Tickets", 
+        "description": "Train tickets API with simple interface",
+        "github_link": "https://github.com/bogdaaaaan/train-tickets"
     }
+    
 ]

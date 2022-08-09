@@ -1,8 +1,10 @@
 {
-    "HTML": "#8f2020",
-    "CSS": "#cd5b9f",
+    "HTML": "#e34c26",
+    "CSS": "#264de4",
     "React": "#47bcd4",
-    "JS": "#d6d309",
+    "JS": "#f0db4f",
     "TS": "#3178c6",
-    "Node": "#3c873a"
+    "Node": "#3c873a",
+    "MongoDB": "#4db33d",
+    "Express": "#cccccc"
 }

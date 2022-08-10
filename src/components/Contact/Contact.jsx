@@ -6,11 +6,15 @@ import links from '../../data/links.json';
 const Contact = () => {
     const form = useRef();
 
+    const service_id = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+    const template_id = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+    const public_key = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+
     const sendEmail = e => {
         e.preventDefault();
 
         emailjs
-            .sendForm('service_ybuzrre','template_jjqg99s',form.current,'Kh4XI8mEd_1abJzjj')
+            .sendForm(service_id, template_id, form.current, public_key)
             .then(result => {
                     console.log(result.text);
                 },

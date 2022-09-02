@@ -1,6 +1,4 @@
 import './Card.css';
-import colors from '../../data/tag_colors.json';
-
 
 const Card = (props) => {
     const info = props.props;
@@ -15,7 +13,7 @@ const Card = (props) => {
                     {
                         info.tags.map(tag => {
                             return (
-                                <li key={tag} className={`tag`} style={{"backgroundColor": colors[tag]}}>{tag}</li>
+                                <li key={tag} className={`tag`}>{tag}</li>
                             )
                         })
                     }

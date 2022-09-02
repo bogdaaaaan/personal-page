@@ -44,6 +44,8 @@
     padding: 2px 10px;
     text-transform: uppercase;
     cursor: pointer;
+    border: 1px solid var(--accent);
+    color: var(--text-secondary);
 }
 
 .card-title {

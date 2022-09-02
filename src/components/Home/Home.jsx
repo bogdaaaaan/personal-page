@@ -1,14 +1,13 @@
 import './Home.css';
 
-import github from '../../images/icons/github.svg';
-import instagram from '../../images/icons/instagram.svg';
-import telegram from '../../images/icons/telegram.svg';
-
 import links from '../../data/links.json';
 
 const Home = () => {
     return (
         <section id='home' className='home wrapper'>
+            <div className="home-avatar">
+                <img className='home-avatar__image' src="/images/avatar.jpg" alt="avatar"/>
+            </div>
             <div className='home-info'>
 
                 <h2 className='home-title'>Greetings!</h2>
@@ -17,19 +16,19 @@ const Home = () => {
                 </div>
 
                 <ul className='home-social-links'>
-                    <li className='home-social-links__github'>
+                    <li>
                         <a href={links.github} className='social-link'> 
-                            <img className='social-link__image' src={github} alt="github"/>
+                            <img className='social-link__image' src='/images/icons/github.svg' alt="github"/>
                         </a>
                     </li>
-                    <li className='home-social-links__instagram'>
-                        <a href={links.instagram} className='social-link'>
-                            <img className='social-link__image' src={instagram} alt="instagram"/>
+                    <li>
+                        <a href={links.linkedin} className='social-link'>
+                            <img className='social-link__image' src='/images/icons/linkedin.svg' alt="linkedin"/>
                         </a>
                     </li>
-                    <li className='home-social-links__telegram'>
+                    <li>
                         <a href={links.telegram} className='social-link'>
-                            <img className='social-link__image' src={telegram} alt="telegram"/>
+                            <img className='social-link__image' src='/images/icons/telegram.svg' alt="telegram"/>
                         </a>
                     </li>
                 </ul>

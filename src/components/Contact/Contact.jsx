@@ -38,7 +38,7 @@ const Contact = () => {
 
                 <input className='contact-form__button btn' type="submit" value="Send" />
             </form>
-            <span className='contact-footer'>Or write me in <a href={links.telegram}>telegram</a></span>
+            <span className='contact-footer'>Or write me in <a className='secondary-link' href={links.telegram}>telegram</a></span>
         </section>
     );
 };

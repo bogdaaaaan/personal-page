@@ -4,15 +4,22 @@
     align-items: center;
     flex-direction: column;
     min-height: 480px;
-    margin-bottom: 30px;
-    padding: 25px;
 }
 
 .works-header {
     text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 25px;
+    margin: 15px 0;
+}
+
+.works-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.works-description {
+    font-size: 13px;
+    color: var(--text-secondary);
 }
 
 .works-table {
